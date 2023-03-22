@@ -7,6 +7,7 @@ namespace Obect_Oriented_Practice_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Object Oriented Practice Problems");
+            DuplicateNumber.CheckDuplicate();
         }
     }
 }
