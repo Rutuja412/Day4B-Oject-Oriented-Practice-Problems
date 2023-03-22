@@ -10,6 +10,7 @@ namespace Obect_Oriented_Practice_Problems
     {
         public static void CheckDuplicate()
         {
+            int count = 0;
             int[] array = { 1,2,3,4,2,3 };
             foreach (int num in array)
             {
@@ -23,12 +24,14 @@ namespace Obect_Oriented_Practice_Problems
                     if (array[j] == array[i])
                     {
                         Console.WriteLine("Duplicates numbers is :" + array[i]);
-                     
+                        count++;
+                       
                     }
                 }
 
             }
-           
+            Console.WriteLine("\nTotal number of duplicate elements in the array: " + count);
+
         }
        
     }
