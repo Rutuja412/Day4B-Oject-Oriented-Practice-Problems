@@ -9,6 +9,7 @@ namespace Obect_Oriented_Practice_Problems
             Console.WriteLine("Welcome to Object Oriented Practice Problems");
             DuplicateNumber.CheckDuplicate();
             UniqueElement.CheckUniqueElement();
+            FrequencyOfElement.FindFrequency();
         }
     }
 }
