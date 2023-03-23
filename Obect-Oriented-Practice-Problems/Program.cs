@@ -8,7 +8,7 @@ namespace Obect_Oriented_Practice_Problems
         {
             Console.WriteLine("Welcome to Object Oriented Practice Problems");
             Console.WriteLine("Select given options");
-            Console.WriteLine("1.Duplicate Element \n2.Unique Element\n3Frequency Of Element\n4 Find Max & Min\n5.Create Reverse Right Star Pattern ");
+            Console.WriteLine("1.Duplicate Element \n2.Unique Element\n3Frequency Of Element\n4 Find Max & Min\n5.Create Reverse Right Star Pattern \n6 Create Rectangular pattern");
             int option = Convert.ToInt16(Console.ReadLine());
             switch (option)
             {
@@ -27,6 +27,9 @@ namespace Obect_Oriented_Practice_Problems
                     break;
                 case 5:
                     Pattern.CreateReverseRightStarPattern();
+                    break;
+                    case 6:
+                    Pattern.CreateRectanglaStarPattern();
                     break;
             }
         }
