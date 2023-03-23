@@ -34,6 +34,9 @@ namespace Obect_Oriented_Practice_Problems
                     case 7:
                     ReverseString.ReverseWord();
                     break;
+                    case 8:
+                    SumOfAllDigit.CalculateSum();
+                    break;
             }
         }
     }
